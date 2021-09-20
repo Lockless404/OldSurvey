@@ -1,0 +1,56 @@
+body {
+  background-image: url(images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  z-index: -1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#title {
+  color: beige;
+}
+
+#description {
+  color: beige;
+  margin-top: 0;
+  font-family: cursive;
+}
+
+#survey-form {
+  padding: 35px 20px;
+  border-radius: 8px;
+  background-color: rgb(7, 11, 51);
+  color: beige;
+}
+
+#survey-form label #survey-form input[type=text] #survey-form input[type=email] #survey-form input[type=number] #survey-form select {
+  width: 100%;
+  display: block;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+#submit {
+  width: 100%;
+  background-color: pink;
+  height: 40px;
+  font-size: large;
+  font-weight: bold;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+#name #email #number {
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
