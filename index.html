@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body style="background-image: url('images/bg.jpg');">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title"> freeCodeCamp Survey Form </h1>
+    <p id="description"> Thank you for taking the time to help us improve the platform </p>
+    <form id="survey-form">
+      <div>
+        <label id = "name-label" for = "name">Name</label>
+        <input id="name" required type="text" placeholder=" Enter your name">
+      </div>
+      <div>
+        <label id = "email-label" for = "email"> Email </label>
+        <input id="email" required type = "email" placeholder="Enter your email">
+      </div>
+      <div>
+        <label id= "number-label" for = "number"> Age </label>
+        <input id="number" type="number" placeholder="Enter your age" min = "0" max = "100">
+      </div>
+      <div>
+        <p> Which option best describes your current role? </p>
+        <select id = "dropdown" name = "role">
+          <option value = "" selected = "">Select current role</option>
+          <option value="student">Student</option>
+          <option value="job">Full time job</option>
+        </select>
+      </div>  
+      <div>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <fieldset id="radio-input">
+          <label>
+          <input class="radio" type="radio" value="Definatly" name = "radio-input"> Dafinatly
+        </label>
+        <label>
+          <input class="radio" type="radio" value="Maybe" name="radio-input"> Maybe
+        </label>
+        <label>
+          <input class= "radio" type = "radio" value="Not sure" name="radio-input"> Not sure
+        </label>
+        </fieldset>
+      </div>
+      <div>
+        <p>
+          What would you like to see improved?
+          <span class="clue" > (Check all that apply)</span>
+        </p>
+        <label>
+          <input class= "checkbox" value = "front-end-projects" type="checkbox"> Front end projects
+        </label>
+        <label>
+          <input class= "checkbox" value = "back-end-projects" type="checkbox"> Back end projects
+        </label>
+       <label>
+          <input class= "checkbox" value = "data-visualization" type="checkbox"> Data visualization
+        </label>
+        <label>
+          <input class= "checkbox" value = "challenges" type="checkbox"> Challenges
+        </label>
+      </div>
+      <div>
+        <p>Any comments or suggestions?</p>
+        <textarea placeholder="Enter your comments here"></textarea>
+      </div>
+
+      <div>
+        <button id="submit">Submit</button>
+      </div>
+    </form>  
+    <script  src="js/index.js"></script>
+  </body>
+</html>
