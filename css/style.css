@@ -45,12 +45,12 @@ textarea {
   background-color: pink;
   height: 40px;
   font-size: large;
-  font-weight:bold;
+  font-weight: bold;
   padding: 8px;
   margin-top: 20px;
 }
 
-#name, #email, #number {
+#name #email #number {
   margin-top: 8px;
   margin-bottom: 15px;
 }
